@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { H1 } from './components/atomic/H1';
 import { Counter } from './components/Counter';
-import { TodoList } from './components/atomic/TodoList';
+import { TodoList } from './components/TodoList';
 import { TodoItem } from './types';
 
 
