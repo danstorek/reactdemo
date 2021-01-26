@@ -4,12 +4,8 @@ import './App.css';
 import { H1 } from './components/atomic/H1';
 import { Counter } from './components/Counter';
 import { TodoList } from './components/atomic/TodoList';
+import { TodoItem } from './types';
 
-export type TodoItem = {
-  id: number;
-  title: string;
-  description?: string;
-}
 
 const fakeData : TodoItem[] = [
   {id: 0, title: "Naucit se spanelsky", description: "lepe Katalansky"},
