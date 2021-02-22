@@ -3,3 +3,6 @@ export type TodoItem = {
   title: string;
   description?: string;
 };
+export type TodoListProps = {
+  items: TodoItem[];
+};

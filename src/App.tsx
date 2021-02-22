@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import { H1 } from "./components/atomic/H1";
 import { Counter } from "./components/Counter";
-import { TodoList } from "./components/TodoList";
+import { FilteredTodoList, TodoList } from "./components/TodoList";
 import { TodoItem } from "./types";
 
 const fakeData: Array<TodoItem> = [
@@ -45,8 +45,9 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <H1>Todo app</H1>
-        <TodoList items={items} />
-
+        
+        <FilteredTodoList items={items}></FilteredTodoList>
+        {/* <TodoList items={items} /> */}
         {/* <Counter initialValue={10} /> */}
       </header>
     </div>
